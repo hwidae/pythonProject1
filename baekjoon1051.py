@@ -3,7 +3,6 @@ square_list = [[0 for i in range(M)] for i in range(N)]
 searchedList = [1]
 searchNmb = 1
 for i in range(N):
-    data_list = []
     data_list = str(input())
     for j in range(M):
         square_list[i][j] = int(data_list[j])
